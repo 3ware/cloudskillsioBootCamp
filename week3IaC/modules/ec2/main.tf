@@ -35,7 +35,7 @@ resource "aws_instance" "web" {
   user_data = <<-EOF
                 #!/bin/bash
                 echo "I made a Terraform Module!" > index.html
-                nhup busybox httpd -f -p 8080 &
+                nohup busybox httpd -f -p 8080 &
                 EOF
 
   tags = {
