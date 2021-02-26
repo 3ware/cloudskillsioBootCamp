@@ -8,6 +8,6 @@ This is the first time I've touch go, so not really sure what this means. See th
 
 You also need to set the mode to auto or the test will moan that it cannot load the main module. Run this terminal command:
 
-'''console
+```console
 go env -w GO111MODULE=auto
-'''
+```
