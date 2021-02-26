@@ -6,8 +6,6 @@ This causes problems because go is changing from GOPATH mode to module mode. You
 
 This is the first time I've touch go, so not really sure what this means. See this blog: <https://blog.golang.org/go116-module-changes>
 
-You also need to set the mode to auto or the test will moan that it cannot load the main module.
+You also need to set the mode to auto or the test will moan that it cannot load the main module. Run this terminal command:
 
-'''
 go env -w GO111MODULE=auto
-'''
