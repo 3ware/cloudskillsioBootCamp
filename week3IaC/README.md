@@ -2,7 +2,7 @@
 
 During the first attempt of this lab there were lots of errors.
 
-![GOPATHerrors](resources/gopathErrors2.png)
+![GOPATHerrors](../resources/gopathErrors2.png)
 
 This is due to the fact that, as of version 1.16 (the version I recently installed to complete this lab), go builds packages in **module-aware** mode by default. The errors I was seeing all related **GOPATH** mode. See this blog for more info: <https://blog.golang.org/go116-module-changes>
 
